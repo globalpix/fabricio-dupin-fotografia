@@ -10,6 +10,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
+import Footer from "./footer"
 import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -28,12 +29,9 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata.title} />
       <div>
         <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Construido por
-          {` Global Pix Web`}
-          <a href="https://www.globalpix.com.br">Global Pix</a>
-        </footer>
+       
       </div>
+      <Footer/>
     </>
   )
 }
