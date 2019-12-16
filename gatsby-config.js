@@ -14,6 +14,19 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
+
+    `gatsby-plugin-styled-components`,
+
+    'gatsby-plugin-web-font-loader',
+    {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        google: {
+          families: ['Oswald']
+        },
+    }, 
+  },     
+
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
