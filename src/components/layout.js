@@ -33,7 +33,8 @@ Layout.propTypes = {
 }
 
 const Main = styled.main`
-  padding: 1.45rem 1.0875rem;
+  width:100%;
+  margin:0;
 `
 
 export default Layout

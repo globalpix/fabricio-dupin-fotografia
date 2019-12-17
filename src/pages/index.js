@@ -1,14 +1,14 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+import Accordion from "../components/accordion"
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Olá galera da Twitch </h1>      
-    <Link to="/page-2/">Página 2</Link>
+    <Accordion/>
   </Layout>
 )
 
