@@ -23,15 +23,21 @@ const Container = styled.ul`
     flex-direction:row;
 `
 const Item = styled.li`
-    color: #78B2CF;
+    color: #6EB3F7;
     font-weight:300;
     list-style:none;
 `
 
 const Title = styled(props => <Link {...props}/>)`
-  text-decoration: none;
-  text-transform: uppercase ;
-  padding:0 0.4em 0 0;
+    color: #6EB3F7;  
+    text-decoration: none;
+    text-transform: uppercase ;
+    padding:0 0.4em 0 0;
+    &:hover{
+        color: #B6D9FB;
+        -webkit-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
 `
 
 export default Menu

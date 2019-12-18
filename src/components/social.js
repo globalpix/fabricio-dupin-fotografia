@@ -44,15 +44,21 @@ const Container = styled.ul`
     flex-direction:row;
 `
 const Item = styled.li`
-    color: #78B2CF;
+    color: #6EB3F7;
     font-weight:300;
     list-style:none;
     padding:0em 0.8em 0 0;
 `
 
 const Anchor = styled.a`
-  text-decoration: none;
-  text-transform: uppercase ;
+    color: #6EB3F7;
+    text-decoration: none;
+    text-transform: uppercase ;
+    &:hover{
+        color: #B6D9FB;
+        -webkit-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
 `
 
 export default Social

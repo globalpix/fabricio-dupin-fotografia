@@ -13,8 +13,8 @@
 	 position: relative;
 }
  .container .card .card__head {
-	 color: #FFFFFF; 
-	 background: rgba(41, 88, 111, 0.75);
+	 color: #B6D9FB; 
+	 background: rgba(0, 102, 204, 0.75);
 	 padding: 0.5em;
 	 transform: rotate(-90deg);
 	 transform-origin: 0% 0%;
@@ -37,8 +37,8 @@
  .container .card:hover .card__head {
 	 text-align: center;
 	 top: calc(100% - 2em);
-	 color: #FFFFFF;
-	 background: rgba(41, 88, 111, 0.75);
+	 color: #B6D9FB;
+	 background: rgba(0, 102, 204, 0.75);
 	 font-size: 2em;
 	 transform: rotate(0deg) skew(-5deg);
 }

@@ -34,6 +34,7 @@ Layout.propTypes = {
 
 const Main = styled.main`
   width:100%;
+  background:#031A30;
   margin:0;
 `
 

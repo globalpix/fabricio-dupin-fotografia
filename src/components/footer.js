@@ -11,14 +11,15 @@ const Footer = () => (
 )
 
 const Container = styled.footer`
-    background:#00324c;
+    background:#154677;
+    padding:0 0.6vw;
     height:5vh;
     display:flex;
-    justify-content:center;
+    justify-content:flex-end;
     flex-direction:row;
 `
 const Copyright = styled.p`
-    color: #78B2CF;
+    color: #B6D9FB;
     line-height:5vh;
     font-weight:500;
 `

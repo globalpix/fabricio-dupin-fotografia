@@ -1,21 +1,31 @@
 # TAREFAS
 
-[ ] PÁGINAS
+- [x] Venus
 
-    -HOME
-        - [ ] HEADER         
-            [ ] MENU SUPERIOR          
-            [ ] [INSTAGRAM - FACEBOOK - WHATSAPP]            
-        - [ ] ACCORDION
-                [ ]ARQUITETURA
-                [ ]ENSAIOS FEMININOS
-                [ ]MÚSICA
-        - [ ] FOOTER
+## META DE HOJE
 
-    -ABOUT
+- [X] APLICAR PALETA DE CORES
+- [X] REDUZIR IMAGENS COM JPGOPTMIN
+- [ ] COLOCAR AS IMAGENS NAS PÁGINAS (MANSORY GALLERY)
 
-    - PORTIFÓLIO
+- [ ] PÁGINAS
 
-    - CONTATO
-      [ ] FORMULÁRIO
-      [ ] WHATSAPP DIRETO 
+### HOME
+
+- [X] HEADER
+- [ ] MENU SUPERIOR          -
+- [X] [INSTAGRAM - FACEBOOK - WHATSAPP]
+- [X] ACCORDION
+- [ ] ARQUITETURA
+- [ ] ENSAIOS FEMININOS
+- [ ] MÚSICA
+- [ ] FOOTER
+
+### ABOUT
+
+### PORTIFÓLIO
+
+### CONTATO
+
+- [ ] FORMULÁRIO
+- [ ] WHATSAPP DIRETO

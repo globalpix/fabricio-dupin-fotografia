@@ -24,7 +24,7 @@ Header.propTypes = {
 }
 
 const Container = styled.header`
-  background: #72bfe5;
+  background: #154677;
   display:flex;
   flex-direction:row;
   justify-content: space-between;
@@ -44,12 +44,17 @@ const Title = styled(props => <Link {...props}/>)`
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  color: inherit;
+  color: #6EB3F7;
   font-family: 'Oswald' sans-serif;
   font-size: 1.25rem;
   font-weight: 500;
   text-rendering: optimizeLegibility;
   line-height: 1.1;
   text-transform: uppercase ;
+  &:hover{
+    color: #B6D9FB;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
 `
 export default Header
