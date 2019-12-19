@@ -7,12 +7,11 @@ import styled from "styled-components"
 import Menu from "../components/menu"
 import Social from "../components/social"
 
+
 const Header = ({ siteTitle }) => (
   <Container>
     <InnerContainer>
-      
-        <Title to="/">{siteTitle}</Title>      
-           
+      <Title to="/">{siteTitle}</Title> 
     </InnerContainer>
     <Menu/>
     <Social/> 

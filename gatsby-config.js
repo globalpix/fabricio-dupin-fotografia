@@ -1,3 +1,4 @@
+const path = require(`path`)
 module.exports = {
   siteMetadata: {
     title: `Fabrício Dupin - Fotografia`,
@@ -5,12 +6,21 @@ module.exports = {
     author: `@gatsbyjs`,
   },
   plugins: [
+
+    {
+      resolve: 'gatsby-background-image',
+      options: {
+        // add your own characters to escape, replacing the default ':/'
+        specialChars: '/:',
+      },
+    },
+
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images`,
+        path: path.join(__dirname, `src`, `images`),
       },
     },
     `gatsby-transformer-sharp`,

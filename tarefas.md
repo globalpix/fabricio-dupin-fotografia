@@ -23,7 +23,11 @@
 
 ### ABOUT
 
+### BLOG
+
 ### PORTIFÓLIO
+
+- [ ] FILTROS POR CATEGORIA
 
 ### CONTATO
 

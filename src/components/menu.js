@@ -11,6 +11,9 @@ const Menu = () => (
             <Title to="/">Portifólio</Title>
         </Item>
         <Item>
+            <Title to="/">Blog</Title>
+        </Item>
+        <Item>
             <Title to="/">Contato</Title>
         </Item>         
     </Container>     
