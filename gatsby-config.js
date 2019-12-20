@@ -27,7 +27,19 @@ module.exports = {
           families: ['Oswald']
         },
     }, 
-  },     
+  }, 
+  `gatsby-plugin-prefetch-google-fonts`,
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Oswald`,
+            variants: [`300`, `500`, `700`]
+          },
+        ]
+      }
+    },
 
     `gatsby-plugin-sharp`,
     {
@@ -39,6 +51,8 @@ module.exports = {
         jpegProgressive:true,
       },
     },
+
+    
 
     {
       resolve: `gatsby-plugin-manifest`,
