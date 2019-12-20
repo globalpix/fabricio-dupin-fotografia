@@ -7,14 +7,6 @@ module.exports = {
   },
   plugins: [
 
-    {
-      resolve: 'gatsby-background-image',
-      options: {
-        // add your own characters to escape, replacing the default ':/'
-        specialChars: '/:',
-      },
-    },
-
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -23,10 +15,10 @@ module.exports = {
         path: path.join(__dirname, `src`, `images`),
       },
     },
+
+    
     `gatsby-transformer-sharp`,
-
     `gatsby-plugin-styled-components`,
-
     'gatsby-plugin-web-font-loader',
     {
       resolve: 'gatsby-plugin-web-font-loader',
@@ -41,13 +33,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Fabrício Dupin`,
+        short_name: `Fabrício Dupin`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#154677`,
+        theme_color: `#154677`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/logo.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

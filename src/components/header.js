@@ -1,6 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import Logo from "../components/logo-image"
 
 import styled from "styled-components"
 
@@ -11,7 +12,14 @@ import Social from "../components/social"
 const Header = ({ siteTitle }) => (
   <Container>
     <InnerContainer>
-      <Title to="/">{siteTitle}</Title> 
+    
+      <Title to="/"><Logo 
+        styled="display:flex !important; 
+        flex-direction:column;
+        margin-right:8px;
+        justify-content:center;"/>
+        {siteTitle}
+      </Title> 
     </InnerContainer>
     <Menu/>
     <Social/> 
@@ -32,10 +40,13 @@ const Container = styled.header`
   
 `
 const InnerContainer = styled.div`
-  
+    
 `
 const Title = styled(props => <Link {...props}/>)`
   text-decoration: none;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -45,10 +56,12 @@ const Title = styled(props => <Link {...props}/>)`
   padding-top: 0;
   color: #6EB3F7;
   font-family: 'Oswald' sans-serif;
-  font-size: 1.25rem;
+  font-size: 1.8rem;
   font-weight: 500;
   text-rendering: optimizeLegibility;
-  line-height: 1.1;
+  line-height: 44px;
+  text-indent:44px;
+  height:54px;
   text-transform: uppercase ;
   &:hover{
     color: #B6D9FB;

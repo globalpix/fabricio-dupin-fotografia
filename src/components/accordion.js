@@ -11,7 +11,7 @@ const Accordion = () => (
     
     <div className="card">
     <CardLink to="/">
-        <img alt="Arquitetura" src={airbnb}/>
+        <img alt="Ensaios Femininos" src={airbnb}/>
         <div className="card__head">Arquitetura</div>
     </CardLink>
     </div>
